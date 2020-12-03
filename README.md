@@ -1,6 +1,6 @@
 # PLL 8x Clock Multiplier IP
 
-<b> The Caravel with PLL integrated:</b> gds/caravel.gds.gz
+<b> The Caravel with PLL integrated:</b> gds/caravel.gds.gz <br>
 <b> The "user_project_wrapper" containing PLL IP: </b> gds/user_project_wrapper.gds.gz
 
 <h3> PLL in User Project Wrapper </h3>
@@ -14,7 +14,7 @@
  | PLL Pin | Description | Wrapper Pin |
  | --- | --- | --- |
  | REF | Input Clock | wb_clk_i |
- | ENb_VCO | VCO Enable' | wb_sel_i[.0.] |
+ | ENb_VCO | VCO Enable' | wb_sel_i[[0]] |
  | ENb_CP | CP Enable'/ PLL Mode | wb_sel_i[1] |
  | VDD | Power Supply | VCCD1 |
  | GND | Ground | VSSD1 |
