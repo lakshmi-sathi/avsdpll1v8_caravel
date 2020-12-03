@@ -1,0 +1,3 @@
+The Caravel gds to which PLL is integrated is present compressed in gds folder as "caravel.gds.gz"
+
+The "user_project_wrapper.gds.gz" is contains the project wrapper containing the PLL which was integrated to the Caravel
