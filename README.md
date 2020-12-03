@@ -1,3 +1,26 @@
+# PLL 8x Clock Multiplier IP
+
+<b> The Caravel with PLL integrated:</b> gds/caravel.gds.gz
+<b> The "user_project_wrapper" containing PLL IP: </b> gds/user_project_wrapper.gds.gz
+
+<h3> PLL in User Project Wrapper </h3>
+![](Images/PLLonwrapper.jpg)
+
+<h3> PLL in Caravel </h3>
+![](Images/PLL_in_caravel.jpg)
+
+<h3> PLL Pin Connections </h3>
+ 
+ | PLL Pin | Description | Wrapper Pin |
+ | --- | --- | --- |
+ | REF | Input Clock | wb_clk_i |
+ | ENb_VCO | VCO Enable' | wb_sel_i[0] |
+ | ENb_CP | CP Enable'/ PLL Mode | we_sel_i[1] |
+ | VDD | Power Supply | VCCD1 |
+ | GND | Ground | VSSD1 |
+ | VCO_IN | VCO Direct Input | analog_io[30] |
+ | CLK | Clock Output | io_out[37] |
+ 
 # CIIC Harness  
 
 A template SoC for Google SKY130 free shuttles. It is still WIP. The current SoC architecture is given below.
