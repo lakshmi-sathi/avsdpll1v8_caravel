@@ -1,7 +1,7 @@
 # PLL 8x Clock Multiplier IP
 
 <h4> PLL Repo -> https://github.com/lakshmi-sathi/avsdpll_1v8 </h4>
-<h4> The Caravel with PLL integrated -> gds/caravel.gds.gz </h4>  
+<h4> The Caravel SoC with PLL integrated -> gds/caravel.gds.gz </h4>  
 <h4> The "user_project_wrapper" containing PLL IP -> gds/user_project_wrapper.gds.gz</h4> 
 
 <h3> PLL Pin Connections </h3>
