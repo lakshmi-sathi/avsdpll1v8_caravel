@@ -11,7 +11,10 @@
 
 ![](Images/PLL_in_caravel.jpg)
 ![](Images/PLL_Caravel2.jpg)
-![](Images/PLL_Caravel.jpg "PLL integrated Caravel SoC")
+
+<h4> PLL integrated Caravel SoC </h4>
+
+![](Images/PLL_Caravel.jpg)
 
 <h3> PLL Pin Connections </h3>
  
