@@ -18,7 +18,7 @@
 
 <h3> Method Followed: </h3>
 
-* PLL is separately layed-out in Magic (.mag) using tech-file [sky130.tech](https://github.com/lakshmi-sathi/avsdpll1v8_caravel/blob/master/sky130.tech)
+* [PLL](https://github.com/lakshmi-sathi/avsdpll_1v8) is separately layed-out in Magic (.mag) using tech-file [sky130.tech](https://github.com/lakshmi-sathi/avsdpll1v8_caravel/blob/master/sky130.tech)
 ![](Images/PLL_Layout.jpg)
 
 * Forked and cloned [Efabless Caravel Git Repo](https://github.com/efabless/caravel)
