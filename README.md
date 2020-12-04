@@ -33,8 +33,9 @@
 
 * PLL pins are routed mannually to the wrapper pins (as per the connectivity in the above table)
 
-* This completed wrapper (.GDS) is integrated into the Caravel SoC by running `make` in the repo local root directory 
-
+* This completed wrapper (.GDS) is integrated into the Caravel SoC from the repo local root directory:
+`export PDK_ROOT=<same_location_as_in_step_3>` <br>
+`make`
 
 <h3> PLL placed and routed in User Project Wrapper </h3>
 
