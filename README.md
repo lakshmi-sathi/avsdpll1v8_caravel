@@ -23,7 +23,7 @@
 
 * Forked and cloned [Efabless Caravel Git Repo](https://github.com/efabless/caravel)
 
-* In the repo local root directory: <br>
+* In the repo local root directory (bash): <br>
 `make uncompress` <br>
 `export PDK_ROOT=<location_of_choice>` <br>
 `make pdk` <br>
