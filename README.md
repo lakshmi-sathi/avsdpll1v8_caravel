@@ -36,7 +36,7 @@
 * This completed wrapper (.GDS) is integrated into the Caravel SoC by running `make` in the repo local root directory 
 
 
-<h3> PLL in User Project Wrapper </h3>
+<h3> PLL placed and routed in User Project Wrapper </h3>
 
 ![](Images/PLLonwrapper.jpg)
 -> PLL on the left and on the right the third order loop filter
