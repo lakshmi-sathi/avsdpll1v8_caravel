@@ -4,10 +4,14 @@
 <b> The "user_project_wrapper" containing PLL IP: </b> gds/user_project_wrapper.gds.gz
 
 <h3> PLL in User Project Wrapper </h3>
+
 ![](Images/PLLonwrapper.jpg)
 
 <h3> PLL in Caravel </h3>
+
 ![](Images/PLL_in_caravel.jpg)
+![](Images/PLL_Caravel2.jpg)
+![](Images/PLL_Caravel.jpg)
 
 <h3> PLL Pin Connections </h3>
  
