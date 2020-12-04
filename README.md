@@ -31,7 +31,7 @@
 
 * "gds/user_project_wrapper_empty.gds" is opened in Magic and PLL cell instance is added to it 
 
-* PLL pins are routed mannually to the wrapper pins (as per the connectivity in the above table)
+* PLL pins are routed manually to the wrapper pins (as per the connectivity in the above table)
 
 * This completed wrapper (.GDS) is integrated into the Caravel SoC from the repo local root directory: <br>
 `export PDK_ROOT=<same_location_as_before>` <br>
