@@ -1,7 +1,7 @@
 # PLL 8x Clock Multiplier IP
 
-<b> The Caravel with PLL integrated:</b> gds/caravel.gds.gz <br>
-<b> The "user_project_wrapper" containing PLL IP: </b> gds/user_project_wrapper.gds.gz
+<h2> The Caravel with PLL integrated: </h2> gds/caravel.gds.gz <br> <br>
+<h2> The "user_project_wrapper" containing PLL IP: </h2> gds/user_project_wrapper.gds.gz
 
 <h3> PLL Pin Connections </h3>
  
@@ -14,6 +14,24 @@
  | GND | Ground | VSSD1 |
  | VCO_IN | VCO Direct Input | analog_io[30] |
  | CLK | Clock Output | io_out[37] |
+
+<h3> Method Followed: </h3>
+
+* PLL is separately Layed Out in Magic (.mag)
+
+* Forked and cloned [efabless caravel gir repo](https://github.com/efabless/caravel)
+
+* In the root folder: 
+`make uncompress`
+`export PDK_ROOT=<location_of_choice>`
+`make pdk`
+
+* "user_project_wrapper_empty" GDS is opened in Magic and PLL cell instance is added to it 
+
+* PLL pins are routed mannually to the wrapper pins (as per the connectivity in the above table)
+
+
+
 
 <h3> PLL in User Project Wrapper </h3>
 
