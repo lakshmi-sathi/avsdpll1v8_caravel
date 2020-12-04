@@ -38,6 +38,7 @@
 <h3> PLL in User Project Wrapper </h3>
 
 ![](Images/PLLonwrapper.jpg)
+-> PLL on the left and on the right the loop filter
 
 <h3> PLL in Caravel </h3>
 
