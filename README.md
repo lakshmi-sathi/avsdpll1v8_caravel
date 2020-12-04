@@ -23,6 +23,9 @@
 
 ![](Images/PLL_in_caravel.jpg)
 ![](Images/PLL_Caravel2.jpg)
+![](Images/PLL_on_Caravel.jpg)
+![](Images/PLL_on_Caravel3.jpg)
+
 
 <h4> PLL integrated Caravel SoC </h4>
 
