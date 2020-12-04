@@ -18,7 +18,7 @@
 
 <h3> Method Followed: </h3>
 
-* PLL is separately Layed Out in Magic (.mag)
+* PLL is separately layed-out in Magic (.mag)
 
 * Forked and cloned [Efabless Caravel Git Repo](https://github.com/efabless/caravel)
 
@@ -32,7 +32,6 @@
 * PLL pins are routed mannually to the wrapper pins (as per the connectivity in the above table)
 
 * This completed wrapper (.GDS) is integrated into the Caravel SoC by running `make` in the repo local root directory 
-
 
 
 <h3> PLL in User Project Wrapper </h3>
