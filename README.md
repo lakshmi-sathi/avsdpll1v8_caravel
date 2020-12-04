@@ -1,7 +1,7 @@
 # PLL 8x Clock Multiplier IP
 
-<h2> The Caravel with PLL integrated: </h2> gds/caravel.gds.gz <br> <br>
-<h2> The "user_project_wrapper" containing PLL IP: </h2> gds/user_project_wrapper.gds.gz
+<h3> The Caravel with PLL integrated: </h3> gds/caravel.gds.gz <br> <br>
+<h3> The "user_project_wrapper" containing PLL IP: </h3> gds/user_project_wrapper.gds.gz
 
 <h3> PLL Pin Connections </h3>
  
