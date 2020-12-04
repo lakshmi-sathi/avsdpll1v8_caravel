@@ -19,17 +19,18 @@
 
 * PLL is separately Layed Out in Magic (.mag)
 
-* Forked and cloned [efabless caravel gir repo](https://github.com/efabless/caravel)
+* Forked and cloned [efabless caravel git repo](https://github.com/efabless/caravel)
 
-* In the root folder: 
-`make uncompress`
-`export PDK_ROOT=<location_of_choice>`
-`make pdk`
+* In the repo local root directory: <br>
+`make uncompress` <br>
+`export PDK_ROOT=<location_of_choice>` <br>
+`make pdk` <br>
 
 * "user_project_wrapper_empty" GDS is opened in Magic and PLL cell instance is added to it 
 
 * PLL pins are routed mannually to the wrapper pins (as per the connectivity in the above table)
 
+* This completed wrapper (.GDS) is integrated into the Caravel SoC by running `make` in the repo local root directory 
 
 
 
