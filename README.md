@@ -29,7 +29,7 @@
 `make pdk` <br>
 (you need to have Magic > v8.3.6)
 
-* "user_project_wrapper_empty" GDS is opened in Magic and PLL cell instance is added to it 
+* "gds/user_project_wrapper_empty.gds" is opened in Magic and PLL cell instance is added to it 
 
 * PLL pins are routed mannually to the wrapper pins (as per the connectivity in the above table)
 
