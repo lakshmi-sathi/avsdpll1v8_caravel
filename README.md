@@ -11,7 +11,7 @@
 
 ![](Images/PLL_in_caravel.jpg)
 ![](Images/PLL_Caravel2.jpg)
-![](Images/PLL_Caravel.jpg)
+![](Images/PLL_Caravel.jpg "PLL integrated Caravel SoC")
 
 <h3> PLL Pin Connections </h3>
  
