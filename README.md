@@ -3,6 +3,18 @@
 <b> The Caravel with PLL integrated:</b> gds/caravel.gds.gz <br>
 <b> The "user_project_wrapper" containing PLL IP: </b> gds/user_project_wrapper.gds.gz
 
+<h3> PLL Pin Connections </h3>
+ 
+ | PLL Pin | Description | Wrapper Pin |
+ | --- | --- | --- |
+ | REF | Input Clock | wb_clk_i |
+ | ENb_VCO | VCO Enable' | wb_sel_i[[0]] |
+ | ENb_CP | CP Enable'/ PLL Mode | wb_sel_i[1] |
+ | VDD | Power Supply | VCCD1 |
+ | GND | Ground | VSSD1 |
+ | VCO_IN | VCO Direct Input | analog_io[30] |
+ | CLK | Clock Output | io_out[37] |
+
 <h3> PLL in User Project Wrapper </h3>
 
 ![](Images/PLLonwrapper.jpg)
@@ -16,17 +28,7 @@
 
 ![](Images/PLL_Caravel.jpg)
 
-<h3> PLL Pin Connections </h3>
- 
- | PLL Pin | Description | Wrapper Pin |
- | --- | --- | --- |
- | REF | Input Clock | wb_clk_i |
- | ENb_VCO | VCO Enable' | wb_sel_i[[0]] |
- | ENb_CP | CP Enable'/ PLL Mode | wb_sel_i[1] |
- | VDD | Power Supply | VCCD1 |
- | GND | Ground | VSSD1 |
- | VCO_IN | VCO Direct Input | analog_io[30] |
- | CLK | Clock Output | io_out[37] |
+
  
 # CIIC Harness  
 
