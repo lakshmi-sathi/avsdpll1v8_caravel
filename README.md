@@ -26,7 +26,7 @@
 
 <h4> PLL integrated Caravel SoC </h4>
 
-![](Images/PLL_Caravel.jpg)
+![](Images/PLL_Integrated_Caravel.jpg)
 
 
  
